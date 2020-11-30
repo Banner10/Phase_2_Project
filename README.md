@@ -1,35 +1,34 @@
-### Predicting Houseing Prices in King County
+# Introduction
 
-This repository contains a multiple linear regression predictive model which was completed for the final project for Flatirons School Data Science Bootcamps phase 2 project.
+This repository represends a linear regression model that can be used to predict the housing prices for King County, Washington. A copy of the raw data can be found within this repository under the title of 'kc_house_data.csv'. The data contains over 21000 house sales from 2014 and 2015. The raw column information can be found below:
 
+#### Column Names and descriptions for Kings County Data Set
+* **id** - unique identified for a house
+* **dateDate** - house was sold
+* **pricePrice** -  is prediction target
+* **bedroomsNumber** -  of Bedrooms/House
+* **bathroomsNumber** -  of bathrooms/bedrooms
+* **sqft_livingsquare** -  footage of the home
+* **sqft_lotsquare** -  footage of the lot
+* **floorsTotal** -  floors (levels) in house
+* **waterfront** - House which has a view to a waterfront
+* **view** - Has been viewed
+* **condition** - How good the condition is ( Overall )
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house apart from basement
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Built Year
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
-### Defining the problem
+# Description of Work:
 
-To create an accurate pricing model for houses located within King County Washington. This model takes into account a specific audience and is indented for used by people interested houses that are considered average for the area. 
+## Goals:
 
-### The Dataset
+We are building an Ordinary least Squares or OLS liniar regression moedel to accuratly predict housing prices in KC.  This model can be used my real estate agents, real estate developers, buyers, and sellers. 
 
-The dataset use can be found in the “kc_hosue_data.csv” located within this repository. This dataset contains house sale prices for King County, Wasting. It includes homes sold between May 2014 and May 2015.
-
-
-### Componests
-
-# Notebooks 
-
--Data Cleaning and EDA
--Visualizations
--Modeling
-
-# Presentation
-
--PDF Copy of non-technical presentation
-
-# Blog Post
-
--URL of Blog post relating to this project.
-
-### Interpertation of Model 
-
-
-
-
+All data except date column are numeric other than Zipcode which we will classify as categorical.  The categorical columns will need to be one hot endcoded into numerical values. will need to be dummified as it's one of our neighborhood proxies and not a continuous numeric value.
