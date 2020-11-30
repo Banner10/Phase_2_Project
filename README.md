@@ -1,6 +1,6 @@
 # Introduction
 
-This repository represends a linear regression model that can be used to predict the housing prices for King County, Washington. A copy of the raw data can be found within this repository under the title of 'kc_house_data.csv'. The data contains over 21000 house sales from 2014 and 2015. The raw column information can be found below:
+This repository represends a linear regression model that can be used to predict the housing prices for King County, Washington. A copy of the raw data can be found within this repository under the title of 'kc_house_data.csv'. The data contains over 21613 house sales from 2014 and 2015. The raw column information can be found below:
 
 ### Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
@@ -31,7 +31,7 @@ This repository represends a linear regression model that can be used to predict
 * **House_Cleaned** - Data Cleaning and EDA
 * **Visualization** -  Visualizations Used for Presentation
 * **Model_919** -  Final model training
-* **Presentataion** -  Non-Technical Presentation
+* **King Count Slides** -  Non-Technical Presentation
 * **house_cleaned.csv** - Cleaned Data used for final model
 
 # Description of Work:
