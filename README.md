@@ -1,6 +1,7 @@
 # Introduction
 
-This repository represends a linear regression model that can be used to predict the housing prices for King County, Washington. A copy of the raw data can be found within this repository under the title of 'kc_house_data.csv'. The data contains over 21613 house sales from 2014 and 2015. The raw column information can be found below:
+This repository represents a linear regression model that can be used to predict the housing prices for King County, Washington. A copy of the raw data can be found within this repository under the title of 'kc_house_data.csv'. The data contains over 21613 house sales from 2014 and 2015. The raw column information can be found below:
+
 
 ### Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
@@ -31,7 +32,7 @@ This repository represends a linear regression model that can be used to predict
 * **House_Cleaned** - Data Cleaning and EDA
 * **Visualization** -  Visualizations Used for Presentation
 * **Model_919** -  Final model training
-* **King Count Slides** -  Non-Technical Presentation
+* **King Count Slides (1)** -  Non-Technical Presentation
 * **house_cleaned.csv** - Cleaned Data used for final model
 * **Model_trainning** - Training method 2
 * **modeling_dataset(3)** - Training method 3 (log transformations/scaling)
@@ -40,13 +41,14 @@ This repository represends a linear regression model that can be used to predict
 
 ## Goals / Defining Problem:
 
-To build an ordinary least squares or OLS liniar regression moedel to accuratly predict housing prices in King County.  This model can be used by real estate agents, developers, buyers, and sellers. Most accuratly used for houses that lie close that are averagly priced for the county.    
+To build an ordinary least squares or OLS linear regression model to accurately predict housing prices in King County. This model can be used by real estate agents, developers, buyers, and sellers. Most accurately used for houses that lie close that are averagely priced for the county.  
 
 ## Process:
 
 ### Baseline Model:
 
-The process begins with establishing a baseline model. This model takes into account all data points and uses price as the independent variable as we will throughout the mdoeling process. The R-squared value for this baseline model was .699 with a Root Mean Square Error(RMSE), $198314.69.
+The process begins with establishing a baseline model. This model takes into account all data points and uses price as the independent variable as we will throughout the modeling process. The R-squared value for this baseline model was .699 with a Root Mean Square Error(RMSE), $198314.69.
+
 
 ### Data Cleaning / EDA:
 
@@ -54,7 +56,8 @@ The cleaning of data first included becoming familiar with the data. Exploring t
 
 ### Final Model:
 
-When training my final model, we began by exploring correlation. We used a heat map to visually examine the relationships. Next we decided to consider the zip code column as categorical as it was the only non-continuous column. We one hot encoded into dummy variables for all 70 zip codes. Logically, we then checked for collinearity. Dropped square foot above as it was a redundant column and moved into future selection. Feature selection was done using a p-table summary along with a stepwise function.  About 20 features were removed as they had p-values higher than .05 and were deemed statistacally insignificany.
+When training my final model, we began by exploring correlation. We used a heat map to visually examine the relationships. Next we decided to consider the zip code column as categorical as it was the only non-continuous column. We one hot encoded into dummy variables for all 70 zip codes. Logically, we then checked for collinearity. Dropped square foot above as it was a redundant column and moved into future selection. Feature selection was done using a p-table summary along with a stepwise function. About 20 features were removed as they had p-values higher than .05 and were deemed statistically insignificant.
+
 
 ### Final Model Results:
 
