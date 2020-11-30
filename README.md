@@ -33,6 +33,8 @@ This repository represends a linear regression model that can be used to predict
 * **Model_919** -  Final model training
 * **King Count Slides** -  Non-Technical Presentation
 * **house_cleaned.csv** - Cleaned Data used for final model
+* **Model_trainning** - Training method 2
+* **modeling_dataset(3)** - Training method 3 (log transformations/scaling)
 
 # Description of Work:
 
