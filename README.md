@@ -31,7 +31,7 @@ This repository represents a linear regression model that can be used to predict
 * **Baseline_Model** - Baseline model for raw data
 * **House_Cleaned** - Data Cleaning and EDA
 * **Visualization** -  Visualizations Used for Presentation
-* **Model_919** -  Final model training
+* **Final_Model** -  Final model training
 * **King Count Slides (1)** -  Non-Technical Presentation
 * **house_cleaned.csv** - Cleaned Data used for final model
 * **Model_trainning** - Training method 2
